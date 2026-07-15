@@ -1,0 +1,6 @@
+{
+  "name": "Punnett Square Matrix Simulator",
+  "description": "A simulator that solves Punnett squares of any size using matrix operations, including Kronecker products, transpose multiplication, Cartesian products, and combination matrices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
