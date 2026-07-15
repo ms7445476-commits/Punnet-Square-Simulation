@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Punnet-Square-Simulation/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
