@@ -29,19 +29,15 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: |
-          cd Punnet-Square-Simulation
-          npm install --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: Build project
-        run: |
-          cd Punnet-Square-Simulation
-          npm run build
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './Punnet-Square-Simulation/dist'
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
